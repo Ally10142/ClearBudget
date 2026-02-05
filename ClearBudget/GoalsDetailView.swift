@@ -24,5 +24,6 @@ struct GoalsView: View {
         }
         .padding()
         .navigationTitle("Goals")
+        .withBackButton()
     }
 }
